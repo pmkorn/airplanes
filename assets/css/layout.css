@@ -5,4 +5,18 @@
 @import url("https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap");
 body {
   font-family: "Montserrat", sans-serif;
+}
+
+nav .navbar-brand {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+nav .nav-item {
+  margin-right: 2rem;
+}
+nav .nav-item:last-child {
+  margin-right: 0;
+}
+nav .navbar-toggler {
+  border: none;
 }/*# sourceMappingURL=layout.css.map */

@@ -5,6 +5,22 @@ body {
     font-family: $font;
 }
 
+nav {
+    .navbar-brand {
+        font-size: 1.5rem;
+        font-weight: 500;
+    }
+    .nav-item {
+        margin-right: 2rem;
+        &:last-child {
+            margin-right: 0;
+        }
+    }
+    .navbar-toggler {
+        border: none;
+    }
+}
+
 // X-Small devices (portrait phones, less than 576px)
 // No media query for `xs` since this is the default in Bootstrap
 
