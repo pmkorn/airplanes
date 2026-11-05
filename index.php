@@ -24,8 +24,8 @@
 
 </body>
 
+<script src="assets/js/bootstrap.bundle.js?<?php echo time(); ?>"></script>
 <script src="assets/js/jQuery-4.0.0.js?<?php echo time(); ?>"></script>
-<script src="assets/js/bootstrap.js?<?php echo time(); ?>"></script>
 <script src="assets/js/functions.js?<?php time(); ?>"></script>
 
 </html>
