@@ -1,6 +1,6 @@
 <?php
 
-
+    session_start();
 
 ?>
 
@@ -22,10 +22,10 @@
     <?php include_once('includes/navbar.php'); ?>
     <!-- End NAVBAR -->
 
-</body>
+    <script src="assets/js/bootstrap.bundle.js?<?php echo time(); ?>"></script>
+    <script src="assets/js/jQuery-4.0.0.js?<?php echo time(); ?>"></script>
+    <script src="assets/js/functions.js?<?php time(); ?>"></script>
 
-<script src="assets/js/bootstrap.bundle.js?<?php echo time(); ?>"></script>
-<script src="assets/js/jQuery-4.0.0.js?<?php echo time(); ?>"></script>
-<script src="assets/js/functions.js?<?php time(); ?>"></script>
+</body>
 
 </html>
