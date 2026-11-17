@@ -42,7 +42,7 @@
                     <div class="footer-widget h-100 p-3">
                         <h5 class="text-center text-md-start">Nieuwsbrief</h5>
                         <p>Abonneer u op onze nieuwsbrief voor de laatste updates en aanbiedingen.</p>
-                        <div class="input-group input-group-sm mb-3">
+                        <div class="input-group mb-3">
                             <input type="text" class="form-control" placeholder="Email">
                             <button class="btn btn-outline-secondary" type="button" id="button-addon2">
                                 <i class="bi bi-envelope"></i>

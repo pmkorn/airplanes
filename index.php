@@ -20,7 +20,7 @@
 <body>
     
     <!-- NAVBAR -->
-    
+    <?php include_once('includes/navbar.php'); ?>
     <!-- END NAVBAR -->
 
     <!-- FOOTER -->

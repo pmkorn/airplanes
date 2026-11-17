@@ -15,6 +15,7 @@ nav {
         span {
             color: var(--blue-light);
             font-size: 1.2rem;
+            margin-left: 0.5rem;
         }
     }
     .nav-item {
@@ -37,10 +38,10 @@ footer {
             background-color: var(--white);
             border: 1px solid #eeeeee;
             text-align: center;
-            font-size: 0.875rem;
+            font-size: 1rem;
             h5 {
-                font-weight: 500;
-                font-size: 1rem;
+                font-weight: 300;
+                font-size: 1.4rem;
                 margin-bottom: 1rem;
                 text-transform: uppercase;
                 &:after {
