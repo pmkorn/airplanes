@@ -2,6 +2,7 @@
 
     session_start();
 
+
 ?>
 
 <!doctype html>
@@ -19,8 +20,12 @@
 <body>
     
     <!-- NAVBAR -->
-    <?php include_once('includes/navbar.php'); ?>
-    <!-- End NAVBAR -->
+    
+    <!-- END NAVBAR -->
+
+    <!-- FOOTER -->
+    <?php include_once('includes/footer.php'); ?>
+    <!-- END FOOTER -->
 
     <script src="assets/js/bootstrap.bundle.js?<?php echo time(); ?>"></script>
     <script src="assets/js/jQuery-4.0.0.js?<?php echo time(); ?>"></script>

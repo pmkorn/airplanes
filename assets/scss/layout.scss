@@ -11,6 +11,11 @@ nav {
         font-size: 1.5rem;
         font-weight: 500;
         color: var(--blue);
+        text-transform: uppercase;
+        span {
+            color: var(--blue-light);
+            font-size: 1.2rem;
+        }
     }
     .nav-item {
         font-weight: 500;
@@ -24,6 +29,84 @@ nav {
     }
 }
 
+// FOOTER
+footer {
+    background-color: var(--light-gray);
+    .top-bar {
+        .footer-widget {
+            background-color: var(--white);
+            border: 1px solid #eeeeee;
+            text-align: center;
+            font-size: 0.875rem;
+            h5 {
+                font-weight: 500;
+                font-size: 1rem;
+                margin-bottom: 1rem;
+                text-transform: uppercase;
+                &:after {
+                    content: '';
+                    border-bottom: 2px solid var(--blue);
+                    display: block;
+                    height: 1px;
+                    width: 50px;
+                    margin: 15px auto 30px;
+                }
+            }
+            ul {
+                list-style: none;
+                padding: 0;
+                li {
+                    margin-bottom: 0.5rem;
+                    i {
+                        margin-right: 0.5rem;
+                        color: var(--blue);
+                    }
+                    a {
+                        color: var(--blue-dark);
+                        text-decoration: none;
+                        transition: color 0.3s ease;
+                        &:hover {
+                            color: var(--blue);
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .bottom-bar {
+        font-size: 0.875rem;
+        .copyright {
+            color: var(--blue-dark);
+            a {
+                color: var(--blue-dark);
+                text-decoration: none;
+                &:hover {
+                    color: var(--blue);
+                }
+            }
+        }  
+        .social-icons {
+            padding: 0;
+            margin: 0;
+            list-style: none;
+            li {
+                display: inline-block;
+                margin-right: 1rem;
+                &:last-child {
+                    margin-right: 0;
+                }
+                a {
+                    color: var(--blue-dark);
+                    transition: color 0.3s ease;
+                    &:hover {
+                        color: var(--blue);
+                    }
+                }
+            }
+        } 
+    }
+}
+
 // X-Small devices (portrait phones, less than 576px)
 // No media query for `xs` since this is the default in Bootstrap
 
@@ -34,7 +117,83 @@ nav {
 
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) {
-    
+    // FOOTER
+    footer {
+        background-color: var(--light-gray);
+        .top-bar {
+            .footer-widget {
+                background-color: var(--white);
+                border: 1px solid #eeeeee;
+                text-align: left;
+                h5 {
+                    font-weight: 500;
+                    font-size: 1rem;
+                    margin-bottom: 1rem;
+                    text-transform: uppercase;
+                    &:after {
+                        content: '';
+                        border-bottom: 2px solid var(--blue);
+                        display: block;
+                        height: 1px;
+                        width: 50px;
+                        margin: 15px 0 30px;
+                    }
+                }
+                ul {
+                list-style: none;
+                padding: 0;
+                    li {
+                        margin-bottom: 0.5rem;
+                        i {
+                            margin-right: 0.5rem;
+                            color: var(--blue);
+                        }
+                        a {
+                            color: var(--blue-dark);
+                            text-decoration: none;
+                            transition: color 0.3s ease;
+                            margin-left: 0px;
+                            &:hover {
+                                color: var(--blue);
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .bottom-bar {
+            font-size: 0.875rem;
+            .copyright {
+                color: var(--blue-dark);
+                a {
+                    color: var(--blue-dark);
+                    text-decoration: none;
+                    &:hover {
+                        color: var(--blue);
+                    }
+                }
+            }  
+            .social-icons {
+                padding: 0;
+                margin: 0;
+                list-style: none;
+                li {
+                    display: inline-block;
+                    margin-right: 1rem;
+                    &:last-child {
+                        margin-right: 0;
+                    }
+                    a {
+                        color: var(--blue-dark);
+                        transition: color 0.3s ease;
+                        &:hover {
+                            color: var(--blue);
+                        }
+                    }
+                }
+            } 
+        }
+    }
 }
 
 // Large devices (desktops, 992px and up)
