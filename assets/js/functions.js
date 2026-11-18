@@ -75,7 +75,7 @@ $(document).ready(function (){
         });
     });
 
-   // Function to delete user account
+   // function to delete user account
     $('#btnDeleteUser').click(function () {
         let userID = $(this).data('user-id');
         if (confirm('Are you sure you want to delete this user account? This action cannot be undone.')) {
@@ -95,7 +95,27 @@ $(document).ready(function (){
         }
     });
 
-    // funtion to toggle password visibility
+    // function to reset password
+    $('#resetPasswordForm').submit(function (event) {
+        event.preventDefault(); // Prevent the default form submission
+
+        let formData = $(this).serialize(); // Serialize the form data
+
+        $.ajax({
+            url: '/reset_password', // Replace with your server endpoint
+            type: 'POST',
+            data: formData,
+            success: function (response) {
+                alert('Password reset successful! You can now log in with your new password.');
+                window.location.href = '/login'; // Redirect to login page
+            },
+            error: function (xhr, status, error) {
+                alert('An error occurred during password reset. Please try again.');
+            }
+        });
+    });
+
+    // function to toggle password visibility
     $('#togglePassword').click(function () {
         let passwordField = $('#password');
         let type = passwordField.attr('type') === 'password' ? 'text' : 'password';
