@@ -23,6 +23,10 @@
     <?php include_once('includes/navbar.php'); ?>
     <!-- END NAVBAR -->
 
+    <!-- MAIN -->
+    
+    <!-- END MAIN -->
+
     <!-- FOOTER -->
     <?php include_once('includes/footer.php'); ?>
     <!-- END FOOTER -->

@@ -20,7 +20,7 @@
     
     <!-- NAVBAR -->
     <?php include_once('includes/navbar.php'); ?>
-    <!-- End NAVBAR -->
+    <!-- END NAVBAR -->
 
     <script src="assets/js/bootstrap.bundle.js?<?php echo time(); ?>"></script>
     <script src="assets/js/jQuery-4.0.0.js?<?php echo time(); ?>"></script>

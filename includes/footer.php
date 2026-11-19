@@ -75,7 +75,7 @@
         <div class="bottom-bar py-3">
             <div class="row">
                 <div class="col-12 col-md-6 order-2 order-md-1 text-center text-md-start">
-                    <p class="copyright">Copyright &copy; 2024 <a href="#">Patrick Korn</a></p>
+                    <p class="copyright">Copyright &copy; <?php echo date("Y"); ?> <a href="#">Patrick Korn</a></p>
                 </div>
                 <div class="col-12 col-md-6 order-1 order-md-2 text-center text-md-end">
                     <ul class="social-icons pb-3 pb-md-0">
